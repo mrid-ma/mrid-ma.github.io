@@ -21,24 +21,26 @@
     <body>
     		<img src="logo.png" alt="Logo" />
 			
-			<h1><a href="#darija">Darija - دارجة</a></h1>
-			<h1><a href="#french">Français</a></h1>
-			<h1><a href="#english">English</a></h1>
-			
-			<div class="darija">
-				<h1 id="darija">Mrehba bik f mrid.ma</h1>
-				<p>hna paragraphe b darija</p>
+			<div class="container">
+				<form action="https://formspree.io/contact.mrid.ma@gmail.com" method="POST">
+
+					<label for="prenom">Prénom</label>
+					<input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+
+					<label for="nom">Nom</label>
+					<input type="text" id="nom" name="nom" placeholder="Votre Nom">
+					
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="Votre email">
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" placeholder="Rédigez votre message" style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+
+				</form>
 			</div>
-			
-			<div class="french">
-				<h1 id="french">Bienvenue sur mrid.ma</h1>
-				<p>Ici un paragraphe en français</p>
-			</div>
-			
-			<div class="english">
-				<h1 id="english">Welcome to mrid.ma</h1>
-				<p>Here a paragraph in english</p>
-			</div>
+
 			
 			<div class="liens bas de page">
 				<a href="https://www.youtube.com/channel/UCPBgtLmavNR98bfp4CxtCIw">Notre chaîne Youtube</a>
