@@ -2,9 +2,9 @@
 	text-align: center;
 }
 
-.logo {
-	margin: auto;
-	width: 60%;
+#logo {
+	display: block;
+  margin: 0 auto;
 }
 
 #myBtn {
