@@ -36,9 +36,9 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
-.logo {
-	margin: auto;
-	width: 60%;
+#logo {
+	display: block;
+  margin: 0 auto;
 }
 
 a:link.retour, a:visited.retour {
