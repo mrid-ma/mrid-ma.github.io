@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>mrid.ma</title>
-        
+        <link rel="stylesheet" href="contact.css" />
 		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
@@ -19,15 +19,21 @@
     </head>
 
     <body>
-    		<img src="logo.png" alt="Logo" />
+    		<div class="logo">
+				<img src="logo.png" alt="Logo" />
+			</div>
+			
+			<div class="retour">
+				<a href="index.html">Retour à l'accueil / Go back home</a>
+			</div>
 			
 			<div class="container">
 				<form action="https://formspree.io/contact.mrid.ma@gmail.com" method="POST">
 
-					<label for="prenom">Prénom</label>
+					<label for="prenom">Smiytek/Prénom/First Name</label>
 					<input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
 
-					<label for="nom">Nom</label>
+					<label for="nom">Kniytek/Nom/Last Name</label>
 					<input type="text" id="nom" name="nom" placeholder="Votre Nom">
 					
 					<label for="email">Email</label>
@@ -36,15 +42,18 @@
 					<label for="message">Message</label>
 					<textarea id="message" name="message" placeholder="Rédigez votre message" style="height:200px"></textarea>
 
-					<input type="submit" value="Submit">
+					<input type="submit" value="Envoyer">
 
 				</form>
 			</div>
 
 			
-			<div class="liens bas de page">
-				<a href="https://www.youtube.com/channel/UCPBgtLmavNR98bfp4CxtCIw">Notre chaîne Youtube</a>
-				<a href="#patreon">Notre page Patreon</a> <!-- Lien Patreon à ajouter -->
-				<a href="mentions-legales.html"  target="_blank">Mentions légales</a>
+			<div class="liens-bas-de-page">
+				<a href="https://www.youtube.com/channel/UCPBgtLmavNR98bfp4CxtCIw"><img src="youtube.png" alt="Youtube" /></a> |
+				<a href="https://www.instagram.com/mrid.ma/"><img src="instagram.png" alt="Instagram" /></a> |
+				<a href="https://www.facebook.com/mridma-1174734432684587/"><img src="facebook.png" alt="Facebook" /></a> |
+				<!--<a href="#patreon" target="_blank">--><img src="patreon.png" alt="Patreon" /> <!-- </a> --> | 
+				<a href="contact.html">Contact</a> | 
+				<a href="mentions-legales.html"  target="_blank">Mentions légales</a> | 
     </body>
 </html>
