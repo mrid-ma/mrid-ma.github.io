@@ -42,4 +42,6 @@ a:hover.darija, a:hover.french, a:hover.english, a:active.darija, a:active.frenc
 
 .langues {
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
