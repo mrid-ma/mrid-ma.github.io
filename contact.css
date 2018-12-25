@@ -56,3 +56,30 @@ a:link.retour, a:visited.retour {
 a:hover.retour, a:active.retour {
   background-color: #45a049;
 }
+
+#fb {
+	height: auto; 
+    width: auto; 
+    max-width: 32px; 
+    max-height: 32px;
+}
+
+#ig {
+	height: auto; 
+    width: auto; 
+    max-width: 32px; 
+    max-height: 32px;
+}
+
+#yt {
+	height: auto; 
+    width: auto; 
+    max-width: 32px; 
+    max-height: 32px;
+}
+
+#pt {
+	height: auto; 
+    width: auto; 
+    max-height: 32px;
+}
