@@ -43,7 +43,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 .langues {
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 #fb {
@@ -114,4 +114,9 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 	font-size: 25px;
 	font-family: helvetica,sans-serif;
 	margin-bottom: 200px;
+}
+
+#splash {
+	display: block;
+	margin: 0 auto;
 }
