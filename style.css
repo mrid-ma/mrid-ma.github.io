@@ -5,6 +5,8 @@
 #logo {
 	display: block;
 	margin: 0 auto;
+	max-width:30%;
+    height:auto;
 }
 
 #myBtn {
@@ -88,6 +90,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 	text-align: center;
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
+	margin-bottom: 30px;
 }
 
 #h1french {
@@ -98,7 +101,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 	text-align: center;
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
-	margin-bottom: 200px;
+	margin-bottom: 30px;
 }
 
 #h1darija {
@@ -109,7 +112,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 	text-align: center;
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 #h1ardarija {
@@ -120,7 +123,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 	text-align: center;
 	font-size: 25px;
 	font-family: helvetica,sans-serif;
-	margin-bottom: 200px;
+	margin-bottom: 20px;
 }
 
 #splash {
@@ -131,10 +134,11 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:active.ldarija, a:active.l
 body	{
 	background-image: url("Background02.png");
 	background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 	background-color: #99BED8;
 }
 
 .iframe {
  text-align: center;
+ margin-bottom: 40px;
 }

@@ -41,7 +41,9 @@ input[type=submit]:hover {
 #logo {
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
+	max-width:30%;
+    height:auto;
 }
 
 a:link.retour, a:visited.retour {
