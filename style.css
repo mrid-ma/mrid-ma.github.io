@@ -28,6 +28,11 @@
 	background-color: #45a049;
 }
 
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
 a:link.ldarija, a:link.lfrench, a:link.lenglish, a:link.lretour, a:link.lbusiness, a:visited.ldarija, a:visited.lfrench, a:visited.lenglish, a:visited.lretour, a:visited.lbusiness {
 	background-color: #006333;
 	color: white;
@@ -35,7 +40,7 @@ a:link.ldarija, a:link.lfrench, a:link.lenglish, a:link.lretour, a:link.lbusines
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:hover.lretour, a:hover.lbusiness, a:active.ldarija, a:active.lfrench, a:active.lenglish a:active.lretour, a:active.lbusiness {
@@ -152,4 +157,52 @@ body	{
 .iframe {
  text-align: center;
  margin-bottom: 40px;
+}
+
+/*css de page l'équipe*/
+
+div.polaroidabdou {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+div.containerabdou {
+  padding: 10px 20px;
+}
+
+div.polaroidhouda {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+div.containerhouda {
+  padding: 10px 20px;
+}
+
+div.polaroidyounes {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+div.containeryounes {
+  padding: 10px 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
 }
