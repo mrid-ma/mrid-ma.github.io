@@ -28,10 +28,10 @@
 	background-color: #45a049;
 }
 
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:blue; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a:visited { text-decoration: none; color:#45a049; }
+a:hover { text-decoration: none; color:#006333; }
+a:focus { text-decoration: none; color:#006333; }
+a:hover, a:active { text-decoration: none; color:#006333 }
 
 a:link.ldarija, a:link.lfrench, a:link.lenglish, a:link.lretour, a:link.lbusiness, a:visited.ldarija, a:visited.lfrench, a:visited.lenglish, a:visited.lretour, a:visited.lbusiness {
 	background-color: #006333;
