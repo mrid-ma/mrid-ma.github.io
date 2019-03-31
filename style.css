@@ -96,6 +96,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:hover.lretour, a:hover.lbu
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
 	margin-bottom: 30px;
+	font-weight: bold;
 }
 
 #h1french {
@@ -107,6 +108,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:hover.lretour, a:hover.lbu
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
 	margin-bottom: 30px;
+	font-weight: bold;
 }
 
 #h1business {
@@ -118,6 +120,7 @@ a:hover.ldarija, a:hover.lfrench, a:hover.lenglish, a:hover.lretour, a:hover.lbu
 	font-size: 20px;
 	font-family: helvetica,sans-serif;
 	margin-bottom: 30px;
+	font-weight: bold;
 }
 
 #h1darija {
