@@ -192,7 +192,7 @@ div.containerhouda {
   padding: 10px 20px;
 }
 
-div.polaroidyounes {
+div.polaroidzoubir {
   width: 50%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -200,7 +200,7 @@ div.polaroidyounes {
   margin-top: 20px;
 }
 
-div.containeryounes {
+div.containerzoubir {
   padding: 10px 20px;
 }
 
@@ -210,4 +210,9 @@ div.containeryounes {
 
 .column {
   flex: 33.33%;
+}
+
+p.workedhere {
+	font-weight: bold;
+	margin-left: 200px;
 }
